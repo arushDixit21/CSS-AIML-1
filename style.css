@@ -1,17 +1,17 @@
-p{
+/* p{
 color:blue;
  background-color: gold;
  text-align: center;
+} */
+ p{
+    color: blue;
+    text-align: left;
 }
-
-.p{
-
-    color:grey;
-    background-color:green ;
-}
-
-#jk{
-     font-size: 25px
+div{
+color: green;
+text-align: center;
+border: 5px solid black;
+margin: 120px;
+padding: 120px;
 
 }
-
