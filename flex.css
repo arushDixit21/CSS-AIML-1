@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    height: 20px;
+    width: 10px;
+    background-color: green;
+    padding: 10px;
+    border: 1px solid black;
+    flex-direction: column-reverse;
+    flex-wrap: wrap-reverse;
+    flex-flow: column wrap;
+
+}
+
+.item{
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+   border: 1px;
+}
