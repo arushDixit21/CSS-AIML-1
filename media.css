@@ -1,0 +1,53 @@
+.box{
+    height: 100px;
+    width:100%;
+    background-color: green;
+@media(min-width:768px){
+    .box{
+        background-color: blue;
+    }
+}
+
+}
+@media(min-width:1024px){
+   .box{
+    background-color: red;
+   }
+}
+
+body{margin:0;
+font-family: Arial, sans-serif;}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: greenyellow;
+    padding: 1rem;
+}
+
+.logo{
+    color:#fff;
+    font-size:1.5rem;
+
+}
+
+.menu{
+    display: none;
+    flex-direction: column;
+    background: #444;
+    position:absolute;
+    top:60px;
+    right:20px;
+    width:200px;
+}
+
+.menu a{color: #fff; padding:lem;
+text-decoration: none;display: block;}
+.hamburger{font-size:2 rem; color: #fff; cursor:pointer;}
+
+.menu{display: flex;
+felx-direction: row; position: static ; background: none;
+width: auto;}
+.hamburger{display: none;}
+
